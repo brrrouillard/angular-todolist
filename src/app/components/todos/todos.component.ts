@@ -13,6 +13,23 @@ export class TodosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.todos = [
+      {
+        id: 1,
+        title: "Learn Angular",
+        completed: false
+      },
+      {
+        id: 2,
+        title: "Read Sapiens",
+        completed: true
+      },
+      {
+        id: 3,
+        title: "Do groceries",
+        completed: false
+      },
+    ]
   }
 
 }
